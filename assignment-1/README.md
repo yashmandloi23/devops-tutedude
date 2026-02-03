@@ -2,7 +2,7 @@
 
 Q1 -> Step 1: Create a directory named `test_dir` ''' mkdir test_dir '''
 -> Step 2: Create an empty file named example.txt inside the directory ''' touch test_dir/example.txt'''
--> Step 3: Rename example.txt to renamed_example.txt ''' mv test_dir/example.txt test_dir/renamed_example.txt
+-> Step 3: Rename example.txt to renamed_example.txt ''' mv test_dir/example.txt test_dir/renamed_example.txt'''
 
 Q2 -> Step 1: Display complete contents of `/etc/passwd` ''' cat /etc/passwd '''
 -> Step 2: Display only the first 5 lines ''' head -n 5 /etc/passwd '''
