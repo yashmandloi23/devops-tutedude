@@ -1,17 +1,3 @@
-# 🐍 Python Assignment – Basic Programs Documentation
-
-This assignment covers basic Python concepts including:
-
-- Conditional statements (if-else)
-- Dictionaries
-- File handling (write and read)
-- User input
-- Basic operations
-
-Each problem is solved using simple and beginner-friendly logic.
-
----
-
 # Q1 → Grade Checker
 
 ## Problem Statement
@@ -36,7 +22,6 @@ grade_checker.py
 - Checks conditions using if-else
 - Prints corresponding grade
 
----
 
 # Q2 → Student Grades Manager
 
@@ -63,7 +48,6 @@ student_grades.py
 - Displays all students and grades
 - Menu-driven program
 
----
 
 # Q3 → Write to a File
 
@@ -83,7 +67,6 @@ write_to_file.py
 - Writes multiple lines into it
 - Saves and closes the file
 
----
 
 # Q4 → Read from a File
 
@@ -101,18 +84,3 @@ read_from_file.py
 - Opens output.txt
 - Reads file content
 - Prints content on screen
-
----
-
-# ✅ Conclusion
-
-Through this assignment, I learned:
-
-✔ Using if-else statements  
-✔ Working with dictionaries  
-✔ Taking user input  
-✔ Writing to files  
-✔ Reading from files  
-✔ Basic Python programming structure  
-
-These programs help build a strong foundation in Python basics and file handling.

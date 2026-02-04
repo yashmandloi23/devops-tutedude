@@ -1,10 +1,9 @@
 # Student Grades Management Program
-# Uses dictionary and basic if-else operations
 
 students = {}
 
 while True:
-    print("\n---- Student Grade Manager ----")
+    print("Student Grade Manager")
     print("1. Add new student")
     print("2. Update student grade")
     print("3. Print all grades")
@@ -17,7 +16,7 @@ while True:
         grade = input("Enter grade: ")
 
         if name in students:
-            print("Student already exists. Use update option.")
+            print("Student already exists.")
         else:
             students[name] = grade
             print("Student added successfully.")
@@ -36,13 +35,13 @@ while True:
         if len(students) == 0:
             print("No records found.")
         else:
-            print("\nStudent Grades:")
+            print("Student Grades: ")
             for name, grade in students.items():
                 print(name, ":", grade)
 
     elif choice == "4":
-        print("Exiting program...")
+        print("End")
         break
 
     else:
-        print("Invalid choice. Please try again.")
+        print("Invalid choice.")

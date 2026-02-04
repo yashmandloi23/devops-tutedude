@@ -8,9 +8,9 @@ file = open("output.txt", "r")
 content = file.read()
 
 # Print content
-print("File Content:\n")
+print("File Content: ")
 print(content)
 
 # Close file
 file.close()
-print("File closed successfully.")
+print("File closed")
